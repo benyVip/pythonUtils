@@ -2,7 +2,9 @@
 import openpyxl
 import re
 
+#开始load一个excel的数据
 wb = openpyxl.load_workbook('/Users/linyoujie/Downloads/1.xlsx')
+#获取对应的一个sheel的来操作的一哦哥数据
 sheet = wb['sheel']
 
 i = 15000;
